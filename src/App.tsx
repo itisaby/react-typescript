@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from './Components/Button';
+import { Container } from './Components/Container';
 import { Greet } from './Components/Greet';
 import { Heading } from './Components/Heading';
 import { Input } from './Components/Input';
@@ -34,6 +35,7 @@ function App() {
   ]
   return (
     <div className="App">
+      {/* Props in Typescript */}
       {/* <Greet name="Arnab" messageCount={21} isLogged={false}/>
       <Person name={personName}/>
       <PersonList names={nameList}/>
@@ -45,7 +47,10 @@ function App() {
           Oscar goes to Cafe
         </Heading>
       </Oscar> */}
-      <Button
+
+
+      {/* Event Props in Typescript */}
+      {/* <Button
         handleClick={
           (event, id) => {
             console.log('Button clicked', event, id);
@@ -53,7 +58,11 @@ function App() {
         } />
         <Input value='' handleChange={(event)=> {
           console.log('Input changed', event.target.value);
-        }}/>
+        }}/> */}
+
+        {/* Style Props */}
+        {/* <Container styles={{border: '1px solid black', padding: '1rem'}}/> */}
+        
     </div>
   );
 }
