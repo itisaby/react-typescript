@@ -48,7 +48,7 @@ function App() {
         </Heading>
       </Oscar> */}
 
-
+      <Greet name="Arnab" messageCount={21} isLogged={false}/>
       {/* Event Props in Typescript */}
       {/* <Button
         handleClick={
@@ -63,6 +63,10 @@ function App() {
         {/* Style Props */}
         {/* <Container styles={{border: '1px solid black', padding: '1rem'}}/> */}
         
+        Prop Types and Tips
+
+
+
     </div>
   );
 }
